@@ -13,7 +13,9 @@ How
    restart, on redis.conf:
 
     save 300 1 # save every 5 minutes if there's any change
+    
     dbfilename dump.rdb
+    
     dir /some_directory/
 
 3. There's a sinatra app but it would only be worth it if you set it to
