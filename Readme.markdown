@@ -1,8 +1,7 @@
 Why?
 ===
 
-I really like listening to interviews while driving :p
-I don't care about the video...
+I really like listening stuff while driving(mainly people talking: interviews, talks)
 
 How
 ===
@@ -25,7 +24,7 @@ How
 
 4. The good thing(IMO) of having Redis set this way is that I can just
    queue stuff in a 'save for later' fashion, then anytime you feel like
-getting that new stuff on your car's pen drive, run `QUEUE=* rake
+getting that new stuff on your pen-drive/phone, run `QUEUE=* rake
 resque:work` and it takes care of the rest for you. 
 
 The MP3 Files will be downloaded into this script's root dir.
